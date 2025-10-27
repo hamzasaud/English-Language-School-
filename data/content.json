@@ -1,0 +1,429 @@
+{
+  "site": {
+    "locale": "id-ID",
+    "title": "English School Indonesia - Kursus Bahasa Inggris Terbaik",
+    "metaDescription": "Sekolah bahasa Inggris terpercaya di Indonesia. Kursus untuk SD, SMP, SMA dengan metode pembelajaran modern dan guru berpengalaman.",
+    "keywords": "kursus bahasa inggris, sekolah inggris indonesia, les inggris, belajar bahasa inggris",
+    "url": "https://englishschool-indonesia.com",
+    "logo": "https://via.placeholder.com/200x100/2563EB/FFFFFF?text=ESI",
+    "favicon": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>"
+  },
+  "theme": {
+    "primaryColor": "#2563eb",
+    "accentColor": "#f59e0b",
+    "successColor": "#10b981"
+  },
+  "navigation": {
+    "id": {
+      "home": "Beranda",
+      "courses": "Kursus",
+      "pricing": "Harga",
+      "about": "Tentang",
+      "testimonials": "Testimoni",
+      "contact": "Kontak"
+    },
+    "en": {
+      "home": "Home",
+      "courses": "Courses",
+      "pricing": "Pricing",
+      "about": "About",
+      "testimonials": "Testimonials",
+      "contact": "Contact"
+    }
+  },
+  "homepage": {
+    "id": {
+      "hero": {
+        "title": "Kuasai Bahasa Inggris dengan Mudah dan Menyenangkan!",
+        "subtitle": "Bergabunglah dengan ribuan siswa yang telah berhasil menguasai bahasa Inggris bersama kami. Metode pembelajaran modern, guru berpengalaman, dan suasana belajar yang menyenangkan.",
+        "ctaPrimary": "Daftar Sekarang",
+        "ctaSecondary": "Lihat Kursus",
+        "heroImage": "https://via.placeholder.com/800x600/3B82F6/FFFFFF?text=English+School"
+      },
+      "whyChooseUs": {
+        "title": "Mengapa Memilih Kami?",
+        "subtitle": "Kami berkomitmen memberikan pendidikan bahasa Inggris terbaik dengan pendekatan yang tepat untuk setiap siswa.",
+        "features": [
+          {
+            "icon": "users",
+            "title": "Guru Berpengalaman",
+            "description": "Tim pengajar profesional dengan sertifikasi internasional dan pengalaman mengajar lebih dari 5 tahun."
+          },
+          {
+            "icon": "book-open",
+            "title": "Metode Pembelajaran Modern",
+            "description": "Kurikulum terkini yang menggabungkan teori dan praktik dengan teknologi pembelajaran interaktif."
+          },
+          {
+            "icon": "award",
+            "title": "Sertifikat Resmi",
+            "description": "Dapatkan sertifikat yang diakui secara nasional dan internasional setelah menyelesaikan kursus."
+          },
+          {
+            "icon": "clock",
+            "title": "Jadwal Fleksibel",
+            "description": "Pilihan waktu belajar yang fleksibel, tersedia kelas pagi, siang, dan malam sesuai kebutuhan Anda."
+          }
+        ]
+      }
+    },
+    "en": {
+      "hero": {
+        "title": "Master English Easily and Enjoyably!",
+        "subtitle": "Join thousands of students who have successfully mastered English with us. Modern learning methods, experienced teachers, and a fun learning atmosphere.",
+        "ctaPrimary": "Register Now",
+        "ctaSecondary": "View Courses",
+        "heroImage": "https://via.placeholder.com/800x600/3B82F6/FFFFFF?text=English+School"
+      },
+      "whyChooseUs": {
+        "title": "Why Choose Us?",
+        "subtitle": "We are committed to providing the best English education with the right approach for every student.",
+        "features": [
+          {
+            "icon": "users",
+            "title": "Experienced Teachers",
+            "description": "Professional teaching team with international certification and more than 5 years of teaching experience."
+          },
+          {
+            "icon": "book-open",
+            "title": "Modern Learning Methods",
+            "description": "Latest curriculum that combines theory and practice with interactive learning technology."
+          },
+          {
+            "icon": "award",
+            "title": "Official Certificate",
+            "description": "Get nationally and internationally recognized certificates after completing the course."
+          },
+          {
+            "icon": "clock",
+            "title": "Flexible Schedule",
+            "description": "Flexible learning time options, available morning, afternoon, and evening classes according to your needs."
+          }
+        ]
+      }
+    }
+  },
+  "courses": [
+    {
+      "id": "basic-elementary",
+      "slug": "kursus-dasar-sd",
+      "level": "Basic",
+      "ageGroup": "SD (6-12 tahun)",
+      "price": 600000,
+      "priceDisplay": "Rp 600.000 / bulan",
+      "duration": "3 bulan",
+      "title": {
+        "id": "Kursus Dasar untuk SD",
+        "en": "Basic Course for Elementary"
+      },
+      "shortDescription": {
+        "id": "Pengenalan bahasa Inggris yang menyenangkan untuk anak-anak SD dengan metode bermain sambil belajar.",
+        "en": "Fun introduction to English for elementary children with play-while-learning methods."
+      },
+      "longDescription": {
+        "id": "Program khusus untuk siswa SD yang dirancang dengan pendekatan bermain sambil belajar. Anak-anak akan diperkenalkan dengan vocabulary dasar, pronunciation yang benar, dan basic conversation melalui games, songs, dan aktivitas interaktif yang menyenangkan.",
+        "en": "Special program for elementary students designed with a play-while-learning approach. Children will be introduced to basic vocabulary, correct pronunciation, and basic conversation through fun games, songs, and interactive activities."
+      },
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "image": "https://via.placeholder.com/400x300/10B981/FFFFFF?text=Elementary",
+      "bullets": {
+        "id": [
+          "Vocabulary dasar 500+ kata",
+          "Pronunciation dan phonics",
+          "Basic conversation skills",
+          "Grammar dasar yang mudah dipahami",
+          "Games dan aktivitas interaktif",
+          "Sertifikat penyelesaian"
+        ],
+        "en": [
+          "Basic vocabulary 500+ words",
+          "Pronunciation and phonics",
+          "Basic conversation skills",
+          "Easy-to-understand basic grammar",
+          "Games and interactive activities",
+          "Completion certificate"
+        ]
+      },
+      "schedule": {
+        "id": "2x seminggu, 90 menit per sesi",
+        "en": "2x per week, 90 minutes per session"
+      }
+    },
+    {
+      "id": "intermediate-junior",
+      "slug": "kursus-menengah-smp",
+      "level": "Intermediate",
+      "ageGroup": "SMP (13-15 tahun)",
+      "price": 750000,
+      "priceDisplay": "Rp 750.000 / bulan",
+      "duration": "4 bulan",
+      "title": {
+        "id": "Kursus Menengah untuk SMP",
+        "en": "Intermediate Course for Junior High"
+      },
+      "shortDescription": {
+        "id": "Program komprehensif untuk siswa SMP dengan fokus pada speaking, listening, reading, dan writing skills.",
+        "en": "Comprehensive program for junior high students focusing on speaking, listening, reading, and writing skills."
+      },
+      "longDescription": {
+        "id": "Program yang dirancang khusus untuk siswa SMP yang ingin meningkatkan kemampuan bahasa Inggris mereka ke level menengah. Fokus pada pengembangan 4 skills utama: speaking, listening, reading, dan writing dengan materi yang relevan dengan kehidupan remaja.",
+        "en": "Program specifically designed for junior high students who want to improve their English skills to intermediate level. Focus on developing 4 main skills: speaking, listening, reading, and writing with materials relevant to teenage life."
+      },
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "image": "https://via.placeholder.com/400x300/F59E0B/FFFFFF?text=Junior",
+      "bullets": {
+        "id": [
+          "4 skills lengkap (speaking, listening, reading, writing)",
+          "Grammar intermediate yang praktis",
+          "Vocabulary 1000+ kata",
+          "Conversation untuk situasi sehari-hari",
+          "Persiapan ujian sekolah",
+          "Project-based learning"
+        ],
+        "en": [
+          "Complete 4 skills (speaking, listening, reading, writing)",
+          "Practical intermediate grammar",
+          "Vocabulary 1000+ words",
+          "Conversation for daily situations",
+          "School exam preparation",
+          "Project-based learning"
+        ]
+      },
+      "schedule": {
+        "id": "3x seminggu, 90 menit per sesi",
+        "en": "3x per week, 90 minutes per session"
+      }
+    },
+    {
+      "id": "advanced-senior",
+      "slug": "kursus-lanjutan-sma",
+      "level": "Advanced",
+      "ageGroup": "SMA (16-18 tahun)",
+      "price": 900000,
+      "priceDisplay": "Rp 900.000 / bulan",
+      "duration": "6 bulan",
+      "title": {
+        "id": "Kursus Lanjutan untuk SMA",
+        "en": "Advanced Course for Senior High"
+      },
+      "shortDescription": {
+        "id": "Program intensif untuk siswa SMA dengan persiapan TOEFL, IELTS, dan kemampuan bahasa Inggris akademik.",
+        "en": "Intensive program for senior high students with TOEFL, IELTS preparation and academic English skills."
+      },
+      "longDescription": {
+        "id": "Program advanced yang mempersiapkan siswa SMA untuk ujian internasional seperti TOEFL dan IELTS, serta mengembangkan kemampuan bahasa Inggris akademik yang dibutuhkan untuk melanjutkan studi ke perguruan tinggi atau bekerja di lingkungan internasional.",
+        "en": "Advanced program that prepares senior high students for international exams like TOEFL and IELTS, as well as developing academic English skills needed to continue studies to university or work in international environments."
+      },
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "image": "https://via.placeholder.com/400x300/EF4444/FFFFFF?text=Senior",
+      "bullets": {
+        "id": [
+          "Persiapan TOEFL & IELTS",
+          "Academic English skills",
+          "Advanced grammar & vocabulary",
+          "Essay writing & presentation skills",
+          "Business English basics",
+          "Mock tests & score improvement"
+        ],
+        "en": [
+          "TOEFL & IELTS preparation",
+          "Academic English skills",
+          "Advanced grammar & vocabulary",
+          "Essay writing & presentation skills",
+          "Business English basics",
+          "Mock tests & score improvement"
+        ]
+      },
+      "schedule": {
+        "id": "3x seminggu, 120 menit per sesi",
+        "en": "3x per week, 120 minutes per session"
+      }
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "Sari Wijaya",
+      "role": "Ibu dari siswa SD",
+      "text": {
+        "id": "Anak saya sangat senang belajar di sini. Metode pengajarannya menyenangkan dan guru-gurunya sabar. Dalam 3 bulan, kemampuan bahasa Inggris anak saya meningkat pesat!",
+        "en": "My child is very happy learning here. The teaching method is fun and the teachers are patient. In 3 months, my child's English skills have improved rapidly!"
+      },
+      "photoUrl": "https://via.placeholder.com/100x100/2563EB/FFFFFF?text=Sari+Wijaya",
+      "rating": 5,
+      "course": "Kursus Dasar untuk SD"
+    },
+    {
+      "id": "2",
+      "name": "Ahmad Rizki",
+      "role": "Siswa SMP Kelas 8",
+      "text": {
+        "id": "Sebelumnya saya takut berbicara bahasa Inggris, tapi sekarang saya sudah percaya diri. Guru-guru di sini sangat membantu dan kelasnya tidak membosankan!",
+        "en": "I used to be afraid to speak English, but now I'm confident. The teachers here are very helpful and the classes are not boring!"
+      },
+      "photoUrl": "https://via.placeholder.com/100x100/F59E0B/FFFFFF?text=Ahmad+Rizki",
+      "rating": 5,
+      "course": "Kursus Menengah untuk SMP"
+    },
+    {
+      "id": "3",
+      "name": "Maya Putri",
+      "role": "Siswa SMA Kelas 12",
+      "text": {
+        "id": "Berkat kursus di sini, saya berhasil mendapatkan skor TOEFL 550 dan diterima di universitas impian saya. Terima kasih English School Indonesia!",
+        "en": "Thanks to the course here, I managed to get a TOEFL score of 550 and was accepted at my dream university. Thank you English School Indonesia!"
+      },
+      "photoUrl": "https://via.placeholder.com/100x100/EF4444/FFFFFF?text=Maya+Putri",
+      "rating": 5,
+      "course": "Kursus Lanjutan untuk SMA"
+    }
+  ],
+  "about": {
+    "id": {
+      "title": "Tentang English School Indonesia",
+      "subtitle": "Membangun masa depan cerah melalui pendidikan bahasa Inggris berkualitas",
+      "description": "English School Indonesia didirikan pada tahun 2015 dengan visi menjadi lembaga pendidikan bahasa Inggris terdepan di Indonesia. Kami berkomitmen untuk memberikan pendidikan berkualitas tinggi dengan metode pembelajaran yang inovatif dan menyenangkan.",
+      "mission": "Misi kami adalah membantu setiap siswa menguasai bahasa Inggris dengan percaya diri, sehingga mereka dapat meraih impian dan berkompetisi di era global.",
+      "vision": "Menjadi lembaga pendidikan bahasa Inggris pilihan utama yang menghasilkan lulusan berkualitas dan siap bersaing di tingkat internasional.",
+      "values": [
+        {
+          "title": "Kualitas",
+          "description": "Kami berkomitmen memberikan pendidikan berkualitas tinggi dengan standar internasional."
+        },
+        {
+          "title": "Inovasi",
+          "description": "Selalu mengembangkan metode pembelajaran yang inovatif dan sesuai perkembangan zaman."
+        },
+        {
+          "title": "Kepedulian",
+          "description": "Memahami kebutuhan unik setiap siswa dan memberikan perhatian personal."
+        },
+        {
+          "title": "Integritas",
+          "description": "Menjunjung tinggi kejujuran dan transparansi dalam setiap aspek pendidikan."
+        }
+      ],
+      "stats": [
+        {
+          "number": "2000+",
+          "label": "Siswa Lulus"
+        },
+        {
+          "number": "50+",
+          "label": "Guru Berpengalaman"
+        },
+        {
+          "number": "8",
+          "label": "Tahun Pengalaman"
+        },
+        {
+          "number": "95%",
+          "label": "Tingkat Kepuasan"
+        }
+      ]
+    },
+    "en": {
+      "title": "About English School Indonesia",
+      "subtitle": "Building a bright future through quality English education",
+      "description": "English School Indonesia was founded in 2015 with the vision of becoming a leading English education institution in Indonesia. We are committed to providing high-quality education with innovative and enjoyable learning methods.",
+      "mission": "Our mission is to help every student master English with confidence, so they can achieve their dreams and compete in the global era.",
+      "vision": "To become the primary choice English education institution that produces quality graduates ready to compete at the international level.",
+      "values": [
+        {
+          "title": "Quality",
+          "description": "We are committed to providing high-quality education with international standards."
+        },
+        {
+          "title": "Innovation",
+          "description": "Always developing innovative learning methods that keep up with the times."
+        },
+        {
+          "title": "Care",
+          "description": "Understanding the unique needs of each student and providing personal attention."
+        },
+        {
+          "title": "Integrity",
+          "description": "Upholding honesty and transparency in every aspect of education."
+        }
+      ],
+      "stats": [
+        {
+          "number": "2000+",
+          "label": "Graduated Students"
+        },
+        {
+          "number": "50+",
+          "label": "Experienced Teachers"
+        },
+        {
+          "number": "8",
+          "label": "Years of Experience"
+        },
+        {
+          "number": "95%",
+          "label": "Satisfaction Rate"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "id": {
+      "title": "Hubungi Kami",
+      "subtitle": "Siap membantu Anda memulai perjalanan belajar bahasa Inggris",
+      "formTitle": "Kirim Pesan",
+      "formFields": {
+        "name": "Nama Lengkap",
+        "email": "Email",
+        "phone": "Nomor Telepon",
+        "course": "Kursus yang Diminati",
+        "message": "Pesan"
+      },
+      "submitButton": "Kirim Pesan",
+      "successMessage": "Terima kasih! Pesan Anda telah terkirim. Kami akan menghubungi Anda segera.",
+      "errorMessage": "Maaf, terjadi kesalahan. Silakan coba lagi."
+    },
+    "en": {
+      "title": "Contact Us",
+      "subtitle": "Ready to help you start your English learning journey",
+      "formTitle": "Send Message",
+      "formFields": {
+        "name": "Full Name",
+        "email": "Email",
+        "phone": "Phone Number",
+        "course": "Course of Interest",
+        "message": "Message"
+      },
+      "submitButton": "Send Message",
+      "successMessage": "Thank you! Your message has been sent. We will contact you soon.",
+      "errorMessage": "Sorry, an error occurred. Please try again."
+    }
+  },
+  "settings": {
+    "contactEmail": "info@englishschool-indonesia.com",
+    "phone": "+62 21 1234 5678",
+    "whatsapp": "+62 812 3456 7890",
+    "address": {
+      "id": "Jl. Pendidikan No. 123, Jakarta Selatan 12345",
+      "en": "Jl. Pendidikan No. 123, South Jakarta 12345"
+    },
+    "socialMedia": {
+      "facebook": "https://facebook.com/englishschoolindonesia",
+      "instagram": "https://instagram.com/englishschoolindonesia",
+      "youtube": "https://youtube.com/englishschoolindonesia"
+    },
+    "businessHours": {
+      "id": {
+        "weekdays": "Senin - Jumat: 08:00 - 20:00",
+        "saturday": "Sabtu: 08:00 - 17:00",
+        "sunday": "Minggu: Tutup"
+      },
+      "en": {
+        "weekdays": "Monday - Friday: 08:00 - 20:00",
+        "saturday": "Saturday: 08:00 - 17:00",
+        "sunday": "Sunday: Closed"
+      }
+    },
+    "googleFormsWebhook": "",
+    "netlifyFormsEnabled": true
+  }
+}
