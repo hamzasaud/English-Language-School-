@@ -62,7 +62,7 @@ export default function About() {
             </div>
             <div className="relative">
               <Image
-                src="/images/about-school.jpg"
+                src="https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=600&h=400&fit=crop"
                 alt="English School Indonesia"
                 width={600}
                 height={400}
@@ -169,21 +169,21 @@ export default function About() {
                 role: currentLocale === 'id' ? 'Kepala Sekolah & Pengajar Senior' : 'Principal & Senior Teacher',
                 experience: currentLocale === 'id' ? '10+ tahun pengalaman' : '10+ years experience',
                 education: 'M.Ed TESOL, Cambridge University',
-                image: '/images/teacher-1.jpg'
+                image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face'
               },
               {
                 name: 'Michael Chen',
                 role: currentLocale === 'id' ? 'Pengajar TOEFL/IELTS' : 'TOEFL/IELTS Instructor',
                 experience: currentLocale === 'id' ? '8 tahun pengalaman' : '8 years experience',
                 education: 'M.A Applied Linguistics, Oxford University',
-                image: '/images/teacher-2.jpg'
+                image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face'
               },
               {
                 name: 'Amanda Williams',
                 role: currentLocale === 'id' ? 'Pengajar Anak & Remaja' : 'Children & Teen Instructor',
                 experience: currentLocale === 'id' ? '6 tahun pengalaman' : '6 years experience',
                 education: 'B.Ed English Education, University of Sydney',
-                image: '/images/teacher-3.jpg'
+                image: 'https://images.unsplash.com/photo-1494790108755-2616c9d0c1b4?w=300&h=300&fit=crop&crop=face'
               }
             ].map((teacher, index) => (
               <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -240,21 +240,21 @@ export default function About() {
                 description: currentLocale === 'id' 
                   ? 'Ruang kelas ber-AC dengan proyektor dan audio system untuk pembelajaran interaktif'
                   : 'Air-conditioned classrooms with projectors and audio systems for interactive learning',
-                image: '/images/classroom.jpg'
+                image: 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=400&h=300&fit=crop'
               },
               {
                 title: currentLocale === 'id' ? 'Perpustakaan Digital' : 'Digital Library',
                 description: currentLocale === 'id' 
                   ? 'Akses ke ribuan buku digital dan materi pembelajaran online'
                   : 'Access to thousands of digital books and online learning materials',
-                image: '/images/library.jpg'
+                image: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=300&fit=crop'
               },
               {
                 title: currentLocale === 'id' ? 'Lab Bahasa' : 'Language Lab',
                 description: currentLocale === 'id' 
                   ? 'Laboratorium bahasa dengan teknologi terkini untuk latihan speaking dan listening'
                   : 'Language laboratory with latest technology for speaking and listening practice',
-                image: '/images/language-lab.jpg'
+                image: 'https://images.unsplash.com/photo-1606761568499-6d2451b23c66?w=400&h=300&fit=crop'
               }
             ].map((facility, index) => (
               <div key={index} className="bg-gray-50 rounded-lg overflow-hidden">
