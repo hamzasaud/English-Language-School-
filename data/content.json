@@ -38,7 +38,7 @@
         "subtitle": "Bergabunglah dengan ribuan siswa yang telah berhasil menguasai bahasa Inggris bersama kami. Metode pembelajaran modern, guru berpengalaman, dan suasana belajar yang menyenangkan.",
         "ctaPrimary": "Daftar Sekarang",
         "ctaSecondary": "Lihat Kursus",
-        "heroImage": "https://via.placeholder.com/800x600/3B82F6/FFFFFF?text=English+School"
+        "heroImage": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop&crop=faces"
       },
       "whyChooseUs": {
         "title": "Mengapa Memilih Kami?",
@@ -73,7 +73,7 @@
         "subtitle": "Join thousands of students who have successfully mastered English with us. Modern learning methods, experienced teachers, and a fun learning atmosphere.",
         "ctaPrimary": "Register Now",
         "ctaSecondary": "View Courses",
-        "heroImage": "https://via.placeholder.com/800x600/3B82F6/FFFFFF?text=English+School"
+        "heroImage": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop&crop=faces"
       },
       "whyChooseUs": {
         "title": "Why Choose Us?",
@@ -125,7 +125,7 @@
         "en": "Special program for elementary students designed with a play-while-learning approach. Children will be introduced to basic vocabulary, correct pronunciation, and basic conversation through fun games, songs, and interactive activities."
       },
       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-      "image": "https://via.placeholder.com/400x300/10B981/FFFFFF?text=Elementary",
+      "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&h=300&fit=crop",
       "bullets": {
         "id": [
           "Vocabulary dasar 500+ kata",
@@ -170,7 +170,7 @@
         "en": "Program specifically designed for junior high students who want to improve their English skills to intermediate level. Focus on developing 4 main skills: speaking, listening, reading, and writing with materials relevant to teenage life."
       },
       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-      "image": "https://via.placeholder.com/400x300/F59E0B/FFFFFF?text=Junior",
+      "image": "https://images.unsplash.com/photo-1571260899304-425eee4c7efc?w=400&h=300&fit=crop",
       "bullets": {
         "id": [
           "4 skills lengkap (speaking, listening, reading, writing)",
@@ -215,7 +215,7 @@
         "en": "Advanced program that prepares senior high students for international exams like TOEFL and IELTS, as well as developing academic English skills needed to continue studies to university or work in international environments."
       },
       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-      "image": "https://via.placeholder.com/400x300/EF4444/FFFFFF?text=Senior",
+      "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=300&fit=crop",
       "bullets": {
         "id": [
           "Persiapan TOEFL & IELTS",
@@ -249,7 +249,7 @@
         "id": "Anak saya sangat senang belajar di sini. Metode pengajarannya menyenangkan dan guru-gurunya sabar. Dalam 3 bulan, kemampuan bahasa Inggris anak saya meningkat pesat!",
         "en": "My child is very happy learning here. The teaching method is fun and the teachers are patient. In 3 months, my child's English skills have improved rapidly!"
       },
-      "photoUrl": "https://via.placeholder.com/100x100/2563EB/FFFFFF?text=Sari+Wijaya",
+      "photoUrl": "https://randomuser.me/api/portraits/women/44.jpg",
       "rating": 5,
       "course": "Kursus Dasar untuk SD"
     },
@@ -261,7 +261,7 @@
         "id": "Sebelumnya saya takut berbicara bahasa Inggris, tapi sekarang saya sudah percaya diri. Guru-guru di sini sangat membantu dan kelasnya tidak membosankan!",
         "en": "I used to be afraid to speak English, but now I'm confident. The teachers here are very helpful and the classes are not boring!"
       },
-      "photoUrl": "https://via.placeholder.com/100x100/F59E0B/FFFFFF?text=Ahmad+Rizki",
+      "photoUrl": "https://randomuser.me/api/portraits/men/32.jpg",
       "rating": 5,
       "course": "Kursus Menengah untuk SMP"
     },
@@ -273,7 +273,7 @@
         "id": "Berkat kursus di sini, saya berhasil mendapatkan skor TOEFL 550 dan diterima di universitas impian saya. Terima kasih English School Indonesia!",
         "en": "Thanks to the course here, I managed to get a TOEFL score of 550 and was accepted at my dream university. Thank you English School Indonesia!"
       },
-      "photoUrl": "https://via.placeholder.com/100x100/EF4444/FFFFFF?text=Maya+Putri",
+      "photoUrl": "https://randomuser.me/api/portraits/women/68.jpg",
       "rating": 5,
       "course": "Kursus Lanjutan untuk SMA"
     }
