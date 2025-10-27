@@ -3,10 +3,11 @@ import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { Clock, Users, Award } from 'lucide-react';
 import { getLocalizedText, getYouTubeThumbnail } from '../lib/content';
+import { useLanguage } from '../lib/LanguageContext';
 
 export default function CourseCard({ course, showFullDescription = false }) {
   const router = useRouter();
-  const { locale = 'id' } = router;
+  const { currentLocale } = useLanguage();
 
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 animate-fade-in">
@@ -14,7 +15,7 @@ export default function CourseCard({ course, showFullDescription = false }) {
       <div className="relative h-48 bg-gray-200">
         <Image
           src={course.image || getYouTubeThumbnail(course.videoUrl)}
-          alt={getLocalizedText(course.title, locale)}
+          alt={getLocalizedText(course.title, currentLocale)}
           fill
           className="object-cover"
           onError={(e) => {
@@ -36,13 +37,13 @@ export default function CourseCard({ course, showFullDescription = false }) {
       {/* Course Content */}
       <div className="p-6">
         <h3 className="text-xl font-bold text-gray-900 mb-2">
-          {getLocalizedText(course.title, locale)}
+          {getLocalizedText(course.title, currentLocale)}
         </h3>
         
         <p className="text-gray-600 mb-4 line-clamp-3">
           {showFullDescription 
-            ? getLocalizedText(course.longDescription, locale)
-            : getLocalizedText(course.shortDescription, locale)
+            ? getLocalizedText(course.longDescription, currentLocale)
+            : getLocalizedText(course.shortDescription, currentLocale)
           }
         </p>
 
@@ -54,11 +55,11 @@ export default function CourseCard({ course, showFullDescription = false }) {
           </div>
           <div className="flex items-center">
             <Users className="h-4 w-4 mr-1" />
-            <span>{getLocalizedText(course.schedule, locale)}</span>
+            <span>{getLocalizedText(course.schedule, currentLocale)}</span>
           </div>
           <div className="flex items-center">
             <Award className="h-4 w-4 mr-1" />
-            <span>{locale === 'id' ? 'Sertifikat' : 'Certificate'}</span>
+            <span>{currentLocale === 'id' ? 'Sertifikat' : 'Certificate'}</span>
           </div>
         </div>
 
@@ -66,18 +67,18 @@ export default function CourseCard({ course, showFullDescription = false }) {
         {course.bullets && (
           <div className="mb-4">
             <h4 className="font-semibold text-gray-800 mb-2">
-              {locale === 'id' ? 'Yang Akan Dipelajari:' : 'What You\'ll Learn:'}
+              {currentLocale === 'id' ? 'Yang Akan Dipelajari:' : 'What You\'ll Learn:'}
             </h4>
             <ul className="space-y-1">
-              {getLocalizedText(course.bullets, locale).slice(0, 3).map((bullet, index) => (
+              {getLocalizedText(course.bullets, currentLocale).slice(0, 3).map((bullet, index) => (
                 <li key={index} className="text-sm text-gray-600 flex items-start">
                   <span className="text-primary-500 mr-2">•</span>
                   {bullet}
                 </li>
               ))}
-              {getLocalizedText(course.bullets, locale).length > 3 && (
+              {getLocalizedText(course.bullets, currentLocale).length > 3 && (
                 <li className="text-sm text-gray-500 italic">
-                  {locale === 'id' ? '+ dan masih banyak lagi...' : '+ and much more...'}
+                  {currentLocale === 'id' ? '+ dan masih banyak lagi...' : '+ and much more...'}
                 </li>
               )}
             </ul>
@@ -91,14 +92,14 @@ export default function CourseCard({ course, showFullDescription = false }) {
               {course.priceDisplay}
             </span>
             <p className="text-sm text-gray-500">
-              {locale === 'id' ? 'per bulan' : 'per month'}
+              {currentLocale === 'id' ? 'per bulan' : 'per month'}
             </p>
           </div>
           <Link
             href={`/courses/${course.slug}`}
             className="bg-primary-600 text-white px-6 py-2 rounded-md font-medium hover:bg-primary-700 transition-colors duration-200"
           >
-            {locale === 'id' ? 'Lihat Detail' : 'View Details'}
+            {currentLocale === 'id' ? 'Lihat Detail' : 'View Details'}
           </Link>
         </div>
       </div>

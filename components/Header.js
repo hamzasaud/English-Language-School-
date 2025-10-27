@@ -29,7 +29,7 @@ export default function Header() {
             <Link href="/" className="flex items-center">
               <img
                 className="h-8 w-auto"
-                src="https://via.placeholder.com/32x32/3B82F6/FFFFFF?text=ES"
+                src="/images/logo.png"
                 alt="English School Indonesia"
               />
               <span className="ml-3 text-xl font-bold text-primary-600">

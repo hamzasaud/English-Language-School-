@@ -2,12 +2,13 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { ChevronLeft, ChevronRight, Star, Quote } from 'lucide-react';
 import { getLocalizedText } from '../lib/content';
+import { useLanguage } from '../lib/LanguageContext';
 
 export default function TestimonialSlider({ testimonials }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
   const router = useRouter();
-  const { locale = 'id' } = router;
+  const { currentLocale } = useLanguage();
 
   // Auto-play functionality
   useEffect(() => {
@@ -48,10 +49,10 @@ export default function TestimonialSlider({ testimonials }) {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            {locale === 'id' ? 'Apa Kata Mereka?' : 'What They Say?'}
+            {currentLocale === 'id' ? 'Apa Kata Mereka?' : 'What They Say?'}
           </h2>
           <p className="text-lg text-gray-600">
-            {locale === 'id' 
+            {currentLocale === 'id' 
               ? 'Testimoni dari siswa dan orang tua yang telah merasakan manfaat belajar bersama kami'
               : 'Testimonials from students and parents who have experienced the benefits of learning with us'
             }
@@ -80,7 +81,7 @@ export default function TestimonialSlider({ testimonials }) {
 
               {/* Testimonial Text */}
               <blockquote className="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed">
-                "{getLocalizedText(currentTestimonial.text, locale)}"
+                "{getLocalizedText(currentTestimonial.text, currentLocale)}"
               </blockquote>
 
               {/* Author Info */}
@@ -151,8 +152,8 @@ export default function TestimonialSlider({ testimonials }) {
               className="text-sm text-gray-500 hover:text-gray-700 transition-colors"
             >
               {isAutoPlaying 
-                ? (locale === 'id' ? 'Jeda otomatis' : 'Pause auto-play')
-                : (locale === 'id' ? 'Mulai otomatis' : 'Start auto-play')
+                ? (currentLocale === 'id' ? 'Jeda otomatis' : 'Pause auto-play')
+                : (currentLocale === 'id' ? 'Mulai otomatis' : 'Start auto-play')
               }
             </button>
           </div>

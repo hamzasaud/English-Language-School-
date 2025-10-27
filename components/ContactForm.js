@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useRouter } from 'next/router';
 import { Send, CheckCircle, AlertCircle } from 'lucide-react';
 import { getContent, getLocalizedText } from '../lib/content';
+import { useLanguage } from '../lib/LanguageContext';
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
@@ -15,9 +16,9 @@ export default function ContactForm() {
   const [submitStatus, setSubmitStatus] = useState(null); // 'success', 'error', null
 
   const router = useRouter();
-  const { locale = 'id' } = router;
-  const content = getContent(locale);
-  const contactContent = content.contact[locale];
+  const { currentLocale } = useLanguage();
+  const content = getContent(currentLocale);
+  const contactContent = content.contact[currentLocale];
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -160,11 +161,11 @@ export default function ContactForm() {
             className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors"
           >
             <option value="">
-              {locale === 'id' ? 'Pilih kursus...' : 'Select course...'}
+              {currentLocale === 'id' ? 'Pilih kursus...' : 'Select course...'}
             </option>
             {content.courses.map(course => (
-              <option key={course.id} value={getLocalizedText(course.title, locale)}>
-                {getLocalizedText(course.title, locale)}
+              <option key={course.id} value={getLocalizedText(course.title, currentLocale)}>
+                {getLocalizedText(course.title, currentLocale)}
               </option>
             ))}
           </select>
@@ -183,7 +184,7 @@ export default function ContactForm() {
             required
             rows={5}
             className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors resize-vertical"
-            placeholder={locale === 'id' 
+            placeholder={currentLocale === 'id' 
               ? 'Ceritakan kepada kami tentang kebutuhan belajar Anda...'
               : 'Tell us about your learning needs...'
             }
@@ -199,7 +200,7 @@ export default function ContactForm() {
           {isSubmitting ? (
             <>
               <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white mr-2"></div>
-              {locale === 'id' ? 'Mengirim...' : 'Sending...'}
+              {currentLocale === 'id' ? 'Mengirim...' : 'Sending...'}
             </>
           ) : (
             <>
@@ -213,7 +214,7 @@ export default function ContactForm() {
       {/* Additional Contact Info */}
       <div className="mt-8 pt-6 border-t border-gray-200">
         <p className="text-sm text-gray-600 text-center">
-          {locale === 'id' 
+          {currentLocale === 'id' 
             ? 'Atau hubungi kami langsung melalui:'
             : 'Or contact us directly via:'
           }
