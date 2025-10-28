@@ -40,7 +40,7 @@ export default function Footer() {
             <div className="flex items-center mb-4">
               <img
                 className="h-8 w-auto"
-                src={content.site.logo}
+                src="/images/logo.png"
                 alt="English School Indonesia"
                 onError={(e) => {
                   e.target.src = '/images/logo-placeholder.png';
